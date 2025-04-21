@@ -1,0 +1,67 @@
+/* Custom värit */
+
+.bg-blue {
+    background-color: #2B569C;
+}
+
+.text-white {
+	color: white;
+}
+
+/* Sivukohtaiset css overridet */
+
+.suunnittelupalvelut-page ul {
+
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+
+}
+
+.suunnittelupalvelut-page li {
+
+    display: block;
+    margin-bottom: 6px;
+
+/* Karuselli customoinnit */
+
+}
+
+.custom-accordion {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+  @media (min-width: 768px) {
+.custom-accordion {
+      width: 70%;
+    }
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+/* Ota yhteyttä lomake */
+
+.card {
+    border-radius: 10px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+

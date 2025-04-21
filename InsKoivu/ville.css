@@ -1,0 +1,100 @@
+/* Headeri taustakuvalla */
+.hero-header {
+	position: relative;
+	background: url('images/header.png') no-repeat center center/cover rgba(0, 0, 0, 0.5);
+	background-blend-mode: multiply;
+	min-height: 320px;
+	/* katotaa tätä myöhemmi jos halutaan säätää kokoa*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+/* Musta overlay */
+.overlay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Navbar oikeessa yläkulmassa */
+.navbar {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.35)
+}
+
+/* Navbar tekstiväri */
+.navbar .nav-link {
+	color: white !important;
+	font-weight: 500;
+	padding: 10px 15px;
+}
+
+.navbar-nav {
+	text-align: right;
+}
+
+.navbar .nav-link:hover {
+	color: #f8f9fa !important;
+}
+
+/* Dropdown värit */
+.dropdown-menu {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-item {
+	color: white !important;
+}
+
+.dropdown-item:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.image-placeholder {
+	width: 100%;
+	height: 300px;
+	border: 2px dashed #ccc;
+	color: #666;
+	font-size: 18px;
+}
+
+.image-caption {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+}
+
+.main-heading {
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+}
+
+.sub-heading {
+	font-size: 24px;
+	font-weight: 500;
+	color: #666;
+}
+
+.body-text {
+	font-size: 16px;
+	color: #444;
+}
